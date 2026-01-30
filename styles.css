@@ -191,3 +191,11 @@ footer {
     display: none;
   }
 }
+/* Remove blue selection highlight on subtitle */
+.subtitle::selection {
+  background: transparent;
+}
+
+.subtitle::-moz-selection {
+  background: transparent;
+}
